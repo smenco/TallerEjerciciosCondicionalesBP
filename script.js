@@ -60,8 +60,33 @@ let Ejercicio3 = (monto_finanza)=>{
     } 
        
     
-    
     console.log(Ejercicio3(60000));
+
+
+    // EJERCICIO 4
+
+    let Ejercicio4 = (p_d1,p_d2,p_d3,p_d4,p_d5,g_1,g_2,g_3,g_4,g_5)=>{
+
+
+        g_totaldias = g_1+g_2+g_3+g_4+g_5;
+        p_totaldias = (p_d1+p_d2+p_d3+p_d4+p_d5)/5;
+
+        if(p_totaldias > 170){
+                m = g_totaldias * 0.50;
+                
+        }else{
+               m = 0;
+                
+        }
+        
+        return `Dinero perdido despues de la revision: ${m}`;
+
+    
+            
+        } 
+           
+        
+        console.log(Ejercicio4(200,200,200,200,200,10000,20000,30000,40000,40000));
 
 
 
