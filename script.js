@@ -21,3 +21,22 @@ console.log(Ejercicio1(3,3000));
 
 // EJERCICIO 2
 
+let Ejercicio2 = (valor_compra,numero_escogido)=>{
+
+    
+if(numero_escogido >= 74){
+        desc = valor_compra * 0.20;
+        tot = valor_compra - desc;
+}else{
+       desc = valor_compra * 0.15;
+        tot = valor_compra - desc;
+}
+
+return `Precio total compra con descuento: ${tot}
+    \nDinero descontado: ${desc} `;
+} 
+   
+
+
+console.log(Ejercicio2(8000,72));
+
