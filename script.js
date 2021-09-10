@@ -88,5 +88,26 @@ let Ejercicio3 = (monto_finanza)=>{
         
         console.log(Ejercicio4(200,200,200,200,200,10000,20000,30000,40000,40000));
 
+        
+    // EJERCICIO 5
 
+    let Ejercicio5 = (valor,dev_coche,valoracion_terreno)=>{
 
+            dev_cochef = ((dev_coche/100)*valor)*(36);
+    
+            valoracion_terrenof = ((valoracion_terreno/100)*valor)*(36);
+            m= valoracion_terrenof/2;
+
+            if(dev_cochef < m){
+                    return "Comprar Automovil"
+                    
+            }else{
+                   return "No Comprar Automovil"
+                    
+            }
+        
+                
+            } 
+               
+            
+            console.log(Ejercicio5(30000,10,10));
