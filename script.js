@@ -40,3 +40,28 @@ return `Precio total compra con descuento: ${tot}
 
 console.log(Ejercicio2(8000,72));
 
+
+// EJERCICIO 3
+
+let Ejercicio3 = (monto_finanza)=>{
+
+    
+    if(monto_finanza < 50000){
+            cuota = monto_finanza * 0.03;
+            
+    }else{
+           cuota = monto_finanza * 0.02;
+            
+    }
+    
+    return `Cuota a pagar por el monto ingresado: ${cuota}`;
+
+        
+    } 
+       
+    
+    
+    console.log(Ejercicio3(60000));
+
+
+
