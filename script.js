@@ -160,8 +160,37 @@ let Ejercicio3 = (monto_finanza)=>{
         return `Valor sin descuento: ${p_aparato}
         \nDescuento: ${descuento1} 
         \nIVA: ${iva} 
-        \VALOR TOTAL A CANCELAR + IVA: ${total1+iva} `    
+        \nVALOR TOTAL A CANCELAR + IVA: ${total1+iva} `    
         } 
            
         
         console.log(Ejercicio7(3000,'NOSY'));
+
+
+            // EJERCICIO 8
+
+    let Ejercicio8 = (n_piezas,v_piezas)=>{
+
+        total2= n_piezas*v_piezas;
+         
+ 
+         if(total2 > 5000){
+                 inv = total2 * 0.55;
+                 cred = total2 * 0.15;
+                 banc = total2 * 0.30;
+                 
+         }else{
+                inv = total2 * 0.70;
+                cred = total2 * 0.30;
+                banc = 0; 
+         }
+                int = cred * 0.20;
+
+         return `Inversion: ${inv}
+         \nPrestamo Banco: ${banc} 
+         \nValor Credito: ${cred} 
+         \nIntereses a pagar por el credito: ${int} `    
+         } 
+            
+         
+         console.log(Ejercicio8(30,5000));
