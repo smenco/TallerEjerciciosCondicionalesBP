@@ -167,7 +167,7 @@ let Ejercicio3 = (monto_finanza)=>{
         console.log(Ejercicio7(3000,'NOSY'));
 
 
-            // EJERCICIO 8
+        // EJERCICIO 8
 
     let Ejercicio8 = (n_piezas,v_piezas)=>{
 
@@ -194,3 +194,28 @@ let Ejercicio3 = (monto_finanza)=>{
             
          
          console.log(Ejercicio8(30,5000));
+
+
+         // EJERCICIO 9
+
+    let Ejercicio9 = (n_1,n_2)=>{
+
+       
+         
+ 
+         if(n_1 == n_2){
+                return `Multiplicacion: ${n_1*n_2}`;
+                 
+         }else if(n_1 > n_2){
+                return `Resta: ${n_1-n_2}`;
+       
+         }else{
+
+                return `Suma: ${n_1+n_2}`;
+
+         }
+                   
+         } 
+            
+         
+         console.log(Ejercicio9(3,3));
