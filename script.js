@@ -219,3 +219,27 @@ let Ejercicio3 = (monto_finanza)=>{
             
          
          console.log(Ejercicio9(3,3));
+
+
+                  // EJERCICIO 10
+
+    let Ejercicio10 = (n_1,n_2,n_3)=>{
+
+       
+         
+ 
+        if(n_1 > n_2 && n_1 > n_3){
+               return `Numero mayor es: ${n_1}`;
+                
+        }else if(n_2 > n_1 && n_2 > n_3){
+               return `Numero mayor es: ${n_2}`;
+      
+        }else{
+               return `Numero mayor es: ${n_3}`;
+
+        }
+                  
+        } 
+           
+        
+        console.log(Ejercicio10(10,6,3));
