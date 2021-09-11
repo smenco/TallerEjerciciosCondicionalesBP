@@ -111,3 +111,31 @@ let Ejercicio3 = (monto_finanza)=>{
                
             
             console.log(Ejercicio5(30000,10,10));
+
+   // EJERCICIO 6
+
+   let Ejercicio6 = (numero_computadoras)=>{
+
+       
+        valor_t = numero_computadoras * 11000;
+
+     
+
+        if(numero_computadoras < 5){
+                descuento = valor_t * 0.10;
+                
+        }else if(numero_computadoras < 10){
+               descuento = valor_t * 0.20;
+                
+        }else{
+                descuento = valor_t * 0.40
+        }
+    
+        return `Valor total a pagar es: ${valor_t-descuento}
+        \nDinero descontado: ${descuento} `;
+
+            
+        } 
+           
+        
+        console.log(Ejercicio6(5));
