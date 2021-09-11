@@ -139,3 +139,29 @@ let Ejercicio3 = (monto_finanza)=>{
            
         
         console.log(Ejercicio6(5));
+
+    // EJERCICIO 7
+
+    let Ejercicio7 = (p_aparato,m_aparato)=>{
+
+       descuento1 = 0;
+        
+
+        if(m_aparato == 'NOSY' && p_aparato >= 2000 ){
+                descuento1 = p_aparato * 0.15;
+                
+        }else if(p_aparato >= 2000){
+               descuento1 = p_aparato * 0.10;
+                
+        }
+     
+        total1 = p_aparato - descuento1;
+        iva = (total1 * 0.16)/100;
+        return `Valor sin descuento: ${p_aparato}
+        \nDescuento: ${descuento1} 
+        \nIVA: ${iva} 
+        \VALOR TOTAL A CANCELAR + IVA: ${total1+iva} `    
+        } 
+           
+        
+        console.log(Ejercicio7(3000,'NOSY'));
